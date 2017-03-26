@@ -23,3 +23,4 @@ function syntaxHighlight(json) {
 
 output(str);
 output(syntaxHighlight(str));
+//var isAddress = /^[0-9a-zA-Z]{34}$/.test(data);

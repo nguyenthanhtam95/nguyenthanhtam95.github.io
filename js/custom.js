@@ -24,10 +24,10 @@ http.open("GET", "http://bitcoin.mubiz.com/info", true);
 http.send(); */
 
 function homePageLoading() {	
-    url = 'http://bitcoin.mubiz.com/info';
-	url0 = 'http://bitcoin.mubiz.com/blockchaininfo';
-	url1 = 'http://bitcoin.mubiz.com/mininginfo';
-	url2 = 'http://bitcoin.mubiz.com/peerinfo';
+    url = ' https://bitcoin.mubiz.com/info';
+	url0 = 'https://bitcoin.mubiz.com/blockchaininfo';
+	url1 = 'https://bitcoin.mubiz.com/peerinfo';
+	url2 = 'https://bitcoin.mubiz.com/mininginfo' ;
     elementID = 'demo';
 	elementID0 = 'd';
 	elementID1 = 'de';
