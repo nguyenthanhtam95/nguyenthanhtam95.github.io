@@ -1,6 +1,4 @@
-function requeteAPI(url, elementID){
-	var xmlhttp = new XMLHttpRequest();
-	xmlhttp.onreadystatechange = function (){
+xmlhttp.onreadystatechange = function (){
     if (this.readyState == 4 && this.status == 200) {
         var myObj = this.responseText;
         var jsonPretty = JSON.stringify(JSON.parse(myObj),null,2);
@@ -24,7 +22,7 @@ http.open("GET", "http://bitcoin.mubiz.com/info", true);
 http.send(); */
 
 function homePageLoading() {	
-    url = ' https://bitcoin.mubiz.com/info';
+    url = 'https://bitcoin.mubiz.com/info';
 	url0 = 'https://bitcoin.mubiz.com/blockchaininfo';
 	url1 = 'https://bitcoin.mubiz.com/peerinfo';
 	url2 = 'https://bitcoin.mubiz.com/mininginfo' ;
